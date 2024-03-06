@@ -68,3 +68,15 @@ html {
   flex: 1 0 21%; 
   margin: 1%; 
   }
+
+.category-item img.category-image-hover {
+    display: none;
+}
+
+.category-item:hover img.category-image-hover {
+    display: block;
+}
+
+.category-item:hover img:not(.category-image-hover) {
+    display: none;
+}
